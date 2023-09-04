@@ -1,4 +1,124 @@
+
 .body-color{
-    background-color: #bbb;
+    background-color: #f3f2f0;
 }
 
+a{
+    text-decoration: none;
+    color: rgb(126, 120, 120);
+}
+
+.show a{
+    font-size: small;
+    
+}
+
+i{
+    font-size: large;
+}
+
+.profile-img-header{
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.banner{
+    padding: 2rem;
+    background-color: #aab0b6;
+}
+
+.profile{
+    bottom: 31px;
+}
+
+.profile-img{
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid white;
+    
+}
+
+.profile-name{
+font-size: 1rem;
+color:rgb(110, 88, 88) ;
+}
+
+.profile-description{
+    font-size: 0.75rem;
+    color:rgb(153, 146, 146) ;
+}
+
+.arrow {
+    border: solid rgb(126, 120, 120);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 2px;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .show p{
+    display: inline;
+    padding-left: 0.25rem;
+  }
+
+  .post-box-img{
+    border-radius: 50%;
+    width: 50px;
+    margin-left: 1rem;
+  }
+  
+  .input-search ::placeholder{
+    color: rgb(136, 131, 125);
+    font-size: small;
+    font-weight: 500;
+  }
+
+
+  .input-search :hover{
+    background-color: #f3f2f1;
+    margin-left: 1rem;
+  }
+
+  .fa-image{
+    color: rgb(119, 119, 216);
+    margin-right: 0.5rem;
+  }
+
+  .fa-calendar-days{
+    color: rgb(196, 149, 49);
+    margin-right: 0.5rem;
+  }
+
+  .fa-newspaper{
+    color: rgb(161, 78, 23);
+    margin-right: 0.5rem;
+  }
+  
+
+  .followers,.time{
+    font-size: small;
+    color: #918a87;
+  }
+  .caption{
+    font-size: small;
+    
+  }
+  .article-btm span{
+    font-size: 0.9rem;
+    color:#918a87;
+    margin-left: 0.4rem;
+  }
+
+/* Media Quieries */
+
+  @media screen and (min-width: 720px) {
+    .profile-header,.post-box,.article,.news{
+        border-radius: 15px;
+    }
+  }

@@ -10,50 +10,52 @@
     <title>Linkedln</title>
 </head>
 <body class="body-color">
-    <header class="bg-white py-2">
+    <header class="bg-white py-2 fixed-top">
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-3 col-xl-6">
                     <div class="d-flex align-items-center">
                         <img style="width: 40px;" class="me-3" alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCI+CjxwYXRoIGZpbGw9IiMwMjg4RDEiIGQ9Ik00MiwzN2MwLDIuNzYyLTIuMjM4LDUtNSw1SDExYy0yLjc2MSwwLTUtMi4yMzgtNS01VjExYzAtMi43NjIsMi4yMzktNSw1LTVoMjZjMi43NjIsMCw1LDIuMjM4LDUsNVYzN3oiPjwvcGF0aD48cGF0aCBmaWxsPSIjRkZGIiBkPSJNMTIgMTlIMTdWMzZIMTJ6TTE0LjQ4NSAxN2gtLjAyOEMxMi45NjUgMTcgMTIgMTUuODg4IDEyIDE0LjQ5OSAxMiAxMy4wOCAxMi45OTUgMTIgMTQuNTE0IDEyYzEuNTIxIDAgMi40NTggMS4wOCAyLjQ4NiAyLjQ5OUMxNyAxNS44ODcgMTYuMDM1IDE3IDE0LjQ4NSAxN3pNMzYgMzZoLTV2LTkuMDk5YzAtMi4xOTgtMS4yMjUtMy42OTgtMy4xOTItMy42OTgtMS41MDEgMC0yLjMxMyAxLjAxMi0yLjcwNyAxLjk5QzI0Ljk1NyAyNS41NDMgMjUgMjYuNTExIDI1IDI3djloLTVWMTloNXYyLjYxNkMyNS43MjEgMjAuNSAyNi44NSAxOSAyOS43MzggMTljMy41NzggMCA2LjI2MSAyLjI1IDYuMjYxIDcuMjc0TDM2IDM2IDM2IDM2eiI+PC9wYXRoPgo8L3N2Zz4="/>
-                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-magnifying-glass d-lg-none"></i>
+                        <input type="text" class="d-none d-lg-block">
                     </div>
                 </div>
-                <div class="col-8">
-                    <div class="d-flex justify-content-between">
+                <div class="col-9 col-xl-6">
+                    <div class="d-flex justify-content-around">
                     <div>
                         <a href="" class="text-secondary fs-3">
                             <i class="fa-solid fa-house"></i>
+                            
                         </a>    
                     </div>
                     <div>
                         <a href="" class="text-secondary fs-3">
-                            <i class="fa-solid fa-house"></i>
+                            <i class="fa-solid fa-people-group"></i>
                         </a>    
                     </div>
                     <div>
                         <a href="" class="text-secondary fs-3">
-                            <i class="fa-solid fa-house"></i>
+                            <i class="fa-solid fa-briefcase"></i>
                         </a>    
                     </div>
                     <div>
                         <a href="" class="text-secondary fs-3">
-                            <i class="fa-solid fa-house"></i>
+                            <i class="fa-solid fa-comment-dots"></i>
                         </a>    
                     </div>
                     <div>
                         <a href="" class="text-secondary fs-3">
-                            <i class="fa-solid fa-house"></i>
+                            <i class="fa-solid fa-bell"></i>
                         </a>    
                     </div>
                     <div>
                         <a href="" class="text-secondary fs-3">
-                            <i class="fa-solid fa-house"></i>
+                            <img  class="profile-img-header" src="./image/profile.jfif" alt="img">
                         </a>    
                     </div>
                     <div>
                         <a href="" class="text-secondary fs-3">
-                            <i class="fa-solid fa-house"></i>
+                            <i class="fa-solid fa-ellipsis"></i>
                         </a>    
                     </div>
                 </div>
@@ -62,99 +64,177 @@
         </div>
     </header>  
     
-    <div class="container mt-3">
+    <div>
         <div class="row">
-            <div class="col-12 col-md-3">
-                <div class="profile-header bg-white"> 
-                    <div class="bg-secondary py-4"></div><!--change the background later-->
-                    <div class="text-center position-relative" style="bottom: 31px;">
+            <div class="col-12 mt-5 col-md-3 col-lg-2 ">
+                <div class="profile-header bg-white "> 
+                    <div class="banner"></div><!--change the background later-->
+                    <div class=" profile text-center position-relative">
                         <div>
-                            <img  style="width: 60px; border-radius: 50%;" src="./image/profile.jfif" alt="img">
+                            <img class="profile-img" src="./image/profile.jfif" alt="img">
                         </div>
                         <div class="mt-2">
-                            <div><strong>Lins Thomas</strong></div>
-                            <div>Full Stack Developer</div>
+                            <div class="profile-name"><h6>Lins Thomas</h6></div>
+                            <div class="profile-description" >Full Stack Developer</div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-md-9">
+            <div class="col-12 col-md-9 col-lg-6">
                 <div class="row">
-                    <div class="col-12">
-                        <div class="text-center">
-                            <a href="" class="bg-secondary">Show more</a>
+                    <div class="col-12 ">
+                        <div class=" show text-center m-2 d-md-none">
+                            <a  href="" ><h9>Show more</h9> <p><i class="arrow down"></i></p></a>
+                           
                         </div>
                         <div class="post-box bg-white px-2 py-1">
                             <div class="row align-items-center">
                                 <div class="col-2">
-                                    <img class="img-fluid" style= border-radius:50%;" src="./image/profile.jfif" alt="img">
+                                    <img class="img-fluid post-box-img"  src="./image/profile.jfif" alt="img">
                                 </div>
-                                <div class="col-10">
-                                    <input type="text" class="form-control"/>
+                                <div class="col-10  input-search">
+                                    <input type="text" placeholder="Start a post" class="form-control rounded-5 border-1 border-secondary"/>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-12 my-3">
+                                <div class="col-12 my-2">
                                     <div class="d-flex justify-content-around">
-                                        <a href="">Media</a>
-                                        <a href="">Event</a>
-                                        <a href="">Write article</a>
+                                        <a href=""> <i class="fa-regular fa-image"></i><span>Media</span></a>
+                                        <a href=""><i class="fa-solid fa-calendar-days"></i><span>Event</span></a>
+                                        <a href=""><i class="fa-regular fa-newspaper"></i><span>Write article</span></a>
                                     </div>
                                 </div>
                                 
                             </div>
                         </div>
+                        <hr>
                     </div>
+        
         
                     <div class="col-12">
         
                         <div class="article bg-white my-2 px-2 p-2">
+                            
                             <div class="d-flex align-items-center">
-                                <img style="width: 50px;border-radius: 50%;" src="./image/profile.jfif" alt="">
+                                <img style="width: 50px;border-radius: 50%;" src="./image/new_logo.jfif" alt="">
                         
                                 <div class="ms-3">
-                                    <div class="fs-5"><strong>NewAgeSys Solutions</strong></div>
-                                    <div class="fs-6">4m</div>
+                                    <div class="fs-2"><h6>NewAgeSys Solutions</h6></div>
+                                    <div class="followers">4012 followers</div>
+                                    <div class="time">4m</div>
+
                                 </div>
                             </div>
+                            
+                            <div class="caption ">Company Culture: What Makes Newagesys Unique</div>
+
                             <div class="my-3">
                                 <img src="./image/newage.jpg" class="img-fluid" alt="">
                             </div>
+                            <hr>
+                            <div class="col-12 my-2">
+                                <div class="d-flex justify-content-around article-btm">
+                                    <div><i class="fa-regular fa-thumbs-up"></i><span>Like</span></div>
+                                    <div><i class="fa-regular fa-comment-dots"></i><span>Comment</span></div>
+                                    <div><i class="fa-solid fa-retweet"></i><span>Repost</span></div>
+                                    <div><i class="fa-solid fa-paper-plane"></i><span>Send</span></div>
+                                </div>
+                            </div>
+                            
+
                         </div>
-        
+
                         <div class="article bg-white my-2 px-2 p-2">
+                            
                             <div class="d-flex align-items-center">
-                                <img style="width: 50px;border-radius: 50%;" src="./image/profile.jfif" alt="">
+                                <img style="width: 50px;border-radius: 50%;" src="./image/aidetec_logo.jfif" alt="">
                         
                                 <div class="ms-3">
-                                    <div class="fs-5"><strong>NewAgeSys Solutions</strong></div>
-                                    <div class="fs-6">4m</div>
+                                    <div class="fs-2"><h6>Aidetec</h6></div>
+                                    <div class="followers">4012 followers</div>
+                                    <div class="time">4m</div>
+
                                 </div>
                             </div>
+                            
+                            <div class="caption ">Company Culture: What Makes Newagesys Unique</div>
+
                             <div class="my-3">
-                                <img src="./image/newage.jpg" class="img-fluid" alt="">
+                                <img src="./image/aidetec.jfif" class="img-fluid" alt="">
                             </div>
+                            <hr>
+                            <div class="col-12 my-2">
+                                <div class="d-flex justify-content-around article-btm">
+                                    <div><i class="fa-regular fa-thumbs-up"></i><span>Like</span></div>
+                                    <div><i class="fa-regular fa-comment-dots"></i><span>Comment</span></div>
+                                    <div><i class="fa-solid fa-retweet"></i><span>Repost</span></div>
+                                    <div><i class="fa-solid fa-paper-plane"></i><span>Send</span></div>
+                                </div>
+                            </div>
+                            
+
                         </div>
-        
+
                         <div class="article bg-white my-2 px-2 p-2">
+                            
                             <div class="d-flex align-items-center">
-                                <img style="width: 50px;border-radius: 50%;" src="./image/profile.jfif" alt="">
+                                <img style="width: 50px;border-radius: 50%;" src="./image/fresher_logo.jfif" alt="">
                         
                                 <div class="ms-3">
-                                    <div class="fs-5"><strong>NewAgeSys Solutions</strong></div>
-                                    <div class="fs-6">4m</div>
+                                    <div class="fs-2"><h6>Fresher Jobs</h6></div>
+                                    <div class="followers">1542 followers</div>
+                                    <div class="time">1m</div>
+
                                 </div>
                             </div>
+                            
+                            <div class="caption ">kickstart your career in Full-Stack Software Development</div>
+
                             <div class="my-3">
-                                <img src="./image/newage.jpg" class="img-fluid" alt="">
+                                <img src="./image/kick.jfif" class="img-fluid" alt="">
                             </div>
-                        </div>
+                            <hr>
+                            <div class="col-12 my-2">
+                                <div class="d-flex justify-content-around article-btm">
+                                    <div><i class="fa-regular fa-thumbs-up"></i><span>Like</span></div>
+                                    <div><i class="fa-regular fa-comment-dots"></i><span>Comment</span></div>
+                                    <div><i class="fa-solid fa-retweet"></i><span>Repost</span></div>
+                                    <div><i class="fa-solid fa-paper-plane"></i><span>Send</span></div>
+                                </div>
+                            </div>
+                            
+
+                        </div>   
                     </div>
                 </div>
             </div>
 
-            
+            <div class="col-lg-4 d-none d-lg-block">
+                <div class=" news bg-white p-3">
+                    <div><strong>LinkedIn News</strong></div>
+                    <div class="my-2">
+                        <div><strong>NHS workforce to surge by 2036: IFS</strong></div>
+                    </div>
+                    <div>7h ago</div>
+                    <div class="my-2">
+                        <div><strong>NHS workforce to surge by 2036: IFS</strong></div>
+                    </div>
+                    <div>7h ago</div>
+                    <div class="my-2">
+                        <div><strong>NHS workforce to surge by 2036: IFS</strong></div>
+                    </div>
+                    <div>7h ago</div>
+                    <div class="my-2">
+                        <div><strong>NHS workforce to surge by 2036: IFS</strong></div>
+                    </div>
+                    <div>7h ago</div>
+                    <div class="my-2">
+                        <div><strong>NHS workforce to surge by 2036: IFS</strong></div>
+                    </div>
+                    <div>7h ago</div>
+                </div>
+            </div>
         </div>
     </div>
 
